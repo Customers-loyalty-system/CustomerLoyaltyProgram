@@ -19,15 +19,17 @@ module.exports = {
       },
       email: {
         allowNull:false,
+        unique:true,
         type: Sequelize.STRING
       },
       phone: {
         allowNull:false,
+        unique:true,
         type: Sequelize.STRING
       },
       birthdate: {
         allowNull:false,
-        type: Sequelize.DATE
+        type: Sequelize.DATEONLY
       },
       password: {
         allowNull:false,
