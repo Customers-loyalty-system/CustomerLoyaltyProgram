@@ -13,7 +13,7 @@ module.exports = {
         allowNull: false,
         type: Sequelize.INTEGER
       },
-      condiation: {
+      condition: {
         allowNull: false,
         type: Sequelize.INTEGER
       },
