@@ -21,17 +21,20 @@ module.exports = {
         allowNull: false,
         type: Sequelize.STRING
       },
-      starderdPoints: {
+      standardPoints: {
         allowNull: false,
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
+        defaultValue: 0
       },
       tiresPoints: {
         allowNull: false,
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
+        defaultValue: 0
       },
-      memmbershipTier: {
+      membershipTier: {
         allowNull: false,
-        type: Sequelize.STRING
+        type: Sequelize.STRING,
+        defaultValue: 'Bronze'
       },
       createdAt: {
         allowNull: false,
